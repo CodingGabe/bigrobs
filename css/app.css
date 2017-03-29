@@ -1,0 +1,120 @@
+/* Brand Colors
+
+Primary: #A84130
+Secondary: #F4F342
+Alt: #60A4CF
+
+*/
+
+body {
+    line-height: 1.5;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Amatic SC', cursive;
+}
+
+nav .navbar-brand{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+}
+
+.navbar-menu-prime {
+    color: #fff;
+    background-color: #A84130;
+}
+
+.navbar-menu-prime .navbar-hamburger span::after,
+.navbar-menu-prime .navbar-hamburger span::before,
+.navbar-menu-prime .navbar-hamburger span {
+    background-color: #fff;
+}
+
+.navbar-menu-prime a:hover {
+        color: #F4F342;
+}
+.button {
+  background-color: #F4F342;
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+
+    .navbar-menu-prime {
+    color: #fff;
+    background-color: #A84130;
+    }
+
+    .navbar-menu-prime a:hover {
+        color: #F4F342;
+    }
+
+    .intro {
+        background: url(../img/burger.jpg) no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh;
+        color: #fff;
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .intro h1,h2,h3 {
+        color: #fff;
+        font-size: 5rem;
+        font-weight: 600;
+    }
+    .intro h1 {
+      padding-top: 80px;
+    }
+
+    .hours {
+        color: #222;
+    }
+
+    .hours h3 {
+        font-size: 3.5em;
+        color: #222;
+        font-weight: 200;
+    }
+
+    #rest {
+        font-weight: bold;
+    }
+
+    .alt-section {
+        background-color: #A84130;
+    }
+
+    .alt-section h3 {
+        font-size: 1.5rem;
+    }
+
+    .alt-section h1,p {
+        color: #fff;
+        font-weight: bold;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header {
+      font-weight: bold;
+      font-size: 3.5em;
+    }
+    .subtitle {
+      font-size: 1.8em;
+    }
+    #menu {
+        background: url(../img/lunch.jpg) no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh;
+        color: #fff;
+        font-size: 2rem;
+        line-height: 1;
+    }
+    #menu .menu-div {
+      padding-top: 100px;
+    }
+    .button {
+      background-color: #F4F342;
+    }
+}
