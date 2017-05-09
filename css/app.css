@@ -9,6 +9,7 @@ Alt: #60A4CF
 body {
     line-height: 1.5;
     font-family: 'Josefin Sans', sans-serif;
+    color: #212227;
 }
 
 h1,h2,h3,h4,h5 {
@@ -69,12 +70,12 @@ nav .navbar-brand{
     }
 
     .hours {
-        color: #222;
+        color: #212227;
     }
 
     .hours h3 {
         font-size: 3.5em;
-        color: #222;
+        color: #212227;
         font-weight: 200;
     }
 
@@ -96,6 +97,9 @@ nav .navbar-brand{
         padding-left: 15px;
         padding-right: 15px;
     }
+    .alt-section p {
+      font-size: 1.2em;
+    }
     .header {
       font-weight: bold;
       font-size: 3.5em;
@@ -114,7 +118,38 @@ nav .navbar-brand{
     #menu .menu-div {
       padding-top: 100px;
     }
-    .button {
+    .button, [type=button], [type=reset], [type=submit], a.button, button {
       background-color: #F4F342;
+      color: #A84130;
+      border: none;
+    }
+    .button:hover, [type=button]:hover, [type=reset]:hover, [type=submit]:hover, a.button:hover, button:hover {
+      background-color: #F4F342;
+      color: #A84130;
+      border: none;
+      opacity: 0.8;
+    }
+    .dine-container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 615px;
+    }
+    .shadow-box {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .hours-block {
+      background-color: #60A4CF;
+      width: 350px;
+      height: 250px;
+      margin: 0 auto;
+      padding: 80px 15px;
+    }
+    .hours-block h4{
+      font-size: 2.5em;
+      font-weight: 700;
+    }
+    .hours-block p {
+      font-size: 2em;
+      font-weight: 700;
     }
 }
